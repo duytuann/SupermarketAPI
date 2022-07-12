@@ -1,3 +1,7 @@
+using System;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+
 namespace Supermarket.API
 {
   public class Program

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hjS4ykc1ytBKBDOWqmbqkmUGbaCng2TV4jsNL7QCP9I=",
+  "Source": "Supermarket.API",
+  "BasePath": "_content/Supermarket.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
