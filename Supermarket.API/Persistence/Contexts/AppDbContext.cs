@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 using Supermarket.API.Domain.Models;
 
 namespace Supermarket.API.Persistence.Contexts
@@ -9,11 +10,12 @@ namespace Supermarket.API.Persistence.Contexts
     public DbSet<Product> Products { get; set; }
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
-
     }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+      base.OnModelCreating(builder);
+
       builder.Entity<Category>().ToTable("Categories");
       builder.Entity<Category>().HasKey(p => p.Id);
       builder.Entity<Category>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();

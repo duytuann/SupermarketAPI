@@ -33,3 +33,5 @@
 /home/duytuan/side-project/src/Supermarket.API/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
 /home/duytuan/side-project/src/Supermarket.API/bin/Debug/net6.0/Humanizer.dll
 /home/duytuan/side-project/src/Supermarket.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/duytuan/side-project/src/Supermarket.API/bin/Debug/net6.0/dotnet-ef.dll
+/home/duytuan/side-project/src/Supermarket.API/bin/Debug/net6.0/Newtonsoft.Json.dll
