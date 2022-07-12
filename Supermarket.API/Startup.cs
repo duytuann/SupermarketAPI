@@ -1,3 +1,15 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Supermarket.API.Domain.Repositories;
+using Supermarket.API.Domain.Services;
+using Supermarket.API.Persistence.Contexts;
+using Supermarket.API.Persistence.Repositories;
+using Supermarket.API.Services;
+
 namespace Supermarket.API
 {
   public class Startup
@@ -12,8 +24,21 @@ namespace Supermarket.API
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
+      var connectionString = "server=localhost;user=root;password=duytuan208;database=supermarketdb;";
+      var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
+
       services.AddAuthorization();
       services.AddControllers();
+
+      services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+
+      services.AddDbContext<AppDbContext>(options =>
+      {
+        options.UseMySql(connectionString, serverVersion);
+      });
+
+      services.AddScoped<ICategoryRepository, CategoryRepository>();
+      services.AddScoped<ICategoryService, CategoryService>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

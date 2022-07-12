@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "rcaM8yhMlnoAerO2MqOqpLemHKo/MhSEPtgQE4TvNA6t0aBLoEk6cSGRtxFaPIMD65rMtP//8pWz7dnDdLvADQ==",
+  "dgSpecHash": "k9KXMzA6JBcmhgYiNCnEYojasxD5iskMnbOrCKWY8EcwMiWmUGQ1nwDl2HpDf0XpmIS+KFDOP2v9JFjayL06pA==",
   "success": true,
   "projectFilePath": "/home/duytuan/side-project/src/Supermarket.API/Supermarket.API.csproj",
   "expectedPackageFiles": [
+    "/home/duytuan/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.entityframeworkcore/6.0.6/microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.6/microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.6/microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
+    "/home/duytuan/.nuget/packages/microsoft.entityframeworkcore.design/6.0.6/microsoft.entityframeworkcore.design.6.0.6.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.6/microsoft.entityframeworkcore.relational.6.0.6.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
@@ -28,9 +30,9 @@
     "/home/duytuan/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/duytuan/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/home/duytuan/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/duytuan/.nuget/packages/microsoft.netcore.app.ref/6.0.6/microsoft.netcore.app.ref.6.0.6.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.6/microsoft.aspnetcore.app.ref.6.0.6.nupkg.sha512",
-    "/home/duytuan/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.6/microsoft.netcore.app.host.linux-x64.6.0.6.nupkg.sha512",
-    "/home/duytuan/.nuget/packages/microsoft.netcore.app.ref/6.0.6/microsoft.netcore.app.ref.6.0.6.nupkg.sha512"
+    "/home/duytuan/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.6/microsoft.netcore.app.host.linux-x64.6.0.6.nupkg.sha512"
   ],
   "logs": []
 }
