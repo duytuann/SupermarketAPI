@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "WyiAB5w27ySnAHXQYIILcgomHD12D5T2d9yQeZXriQM4iTjnTHFAoV2xy8cXxTS5spdKMsczR1dleGdWIKhrCQ==",
+  "dgSpecHash": "Uwyz8rIa/DK6Bg+OZC5Xs2rfyBCIfqSEWnjDX6A8CAC0oHkdtOXkGb0UTFA1BKV5K90YJFcnL1rAFTyK/9I/qg==",
   "success": true,
   "projectFilePath": "/home/duytuan/side-project/src/Supermarket.API/Supermarket.API.csproj",
   "expectedPackageFiles": [
+    "/home/duytuan/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
+    "/home/duytuan/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/home/duytuan/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
-    "/home/duytuan/.nuget/packages/microsoft.csharp/4.3.0/microsoft.csharp.4.3.0.nupkg.sha512",
+    "/home/duytuan/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.entityframeworkcore/6.0.4/microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.4/microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.4/microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
@@ -81,9 +83,9 @@
     "/home/duytuan/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/home/duytuan/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/home/duytuan/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/home/duytuan/.nuget/packages/microsoft.netcore.app.ref/6.0.6/microsoft.netcore.app.ref.6.0.6.nupkg.sha512",
     "/home/duytuan/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.6/microsoft.aspnetcore.app.ref.6.0.6.nupkg.sha512",
-    "/home/duytuan/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.6/microsoft.netcore.app.host.linux-x64.6.0.6.nupkg.sha512"
+    "/home/duytuan/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.6/microsoft.netcore.app.host.linux-x64.6.0.6.nupkg.sha512",
+    "/home/duytuan/.nuget/packages/microsoft.netcore.app.ref/6.0.6/microsoft.netcore.app.ref.6.0.6.nupkg.sha512"
   ],
   "logs": []
 }
