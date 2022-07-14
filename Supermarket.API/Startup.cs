@@ -25,16 +25,15 @@ namespace Supermarket.API
     public void ConfigureServices(IServiceCollection services)
     {
       var connectionString = "server=localhost;user=root;password=duytuan208;database=supermarketdb;";
-      var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
 
       services.AddAuthorization();
       services.AddControllers();
 
-      services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+      // services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
       services.AddDbContext<AppDbContext>(options =>
       {
-        options.UseMySql(connectionString, serverVersion);
+        options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
       });
 
       services.AddScoped<ICategoryRepository, CategoryRepository>();

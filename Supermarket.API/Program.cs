@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Supermarket.API.Persistence.Contexts;
+using Supermarket.API.Domain.Models;
 
 namespace Supermarket.API
 {
@@ -21,6 +22,20 @@ namespace Supermarket.API
       using (var context = scope.ServiceProvider.GetService<AppDbContext>())
       {
         context.Database.EnsureCreated();
+
+        context.Categories.Add(new Category
+        {
+          Id = 101,
+          Name = "Dairy"
+        });
+
+        context.Categories.Add(new Category
+        {
+          Id = 100,
+          Name = "Fruits and Vegetables"
+        });
+
+        context.SaveChanges();
       }
 
       host.Run();
